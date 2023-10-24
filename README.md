@@ -6,15 +6,15 @@ This is a hand-labeled dataset on images taken with an eye gaze tracker retrofit
 
 # Dataset Structure
 The 1600 images were split into 80% for training, 10% for testing, and 10% for validating for your convenience. The dataset follows the conventional YOLO format with each image having a corresponding label file with the same file name but with the '.txt' extension. There are separate image/label files for each of train/test/ and valid as seen below:
-- train
-  * images
-  * labels
-- test
-  * images
-  * labels
-- valid
-  * images
-  * labels
+1. train
+   * images
+   * labels
+2. test
+   * images
+   * labels
+3. valid
+   * images
+   * labels
 
 # Label format
 The labels are formatted such that: [class ID, x-center, y-center, width, height]. And the class names are as follows:
